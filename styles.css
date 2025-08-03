@@ -1,0 +1,93 @@
+@font-face{
+    font-family: abel;
+    src: url(Abel/Abel-Regular.ttf);
+}
+
+ul {
+    border: 2px solid purple;
+    list-style-type: none;
+}
+
+ol {
+    border: 2px solid orange;
+}
+
+ul,ol {
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+}
+
+img {
+    height: 300px;
+    background-color: red;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: red;
+}
+
+p,li {
+    color: orangered;
+}
+
+dl {
+    color: blue;
+}
+
+h1 {
+    font-family: 'abel';
+    color: brown;
+    background-color: aquamarine;
+    padding: 5px;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 10px;
+    width: calc(35%);
+}
+
+h2 {
+    font-family: 'abel';
+    color: brown;
+    background-color: aquamarine;
+    padding: 5px;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 10px;
+    width: calc(20%);
+}
+
+strong {
+    color: black;
+}
+
+a.acerca {
+    padding: 10px;
+}
+
+.box {
+    width: 100px;
+    background-color: blue;
+    height: 100px;
+    transform: rotate(0.12turn);
+    margin: 20px;
+}
+
+body {
+    background: white url(/Html/iconos/Kaneki.png) 0px 0px repeat-x fixed;
+}
+
+@media (min-width: 1500px){
+    body {
+        background-color: black;
+    };
+}
