@@ -83,11 +83,12 @@ a.acerca {
 }
 
 body {
-    background: white url(/Html/iconos/Kaneki.png) 0px 0px repeat-x fixed;
+    background: white url(Pagina web/HTML/iconos/Kaneki.png) 0px 0px repeat-x fixed;
 }
 
 @media (min-width: 1500px){
     body {
         background-color: black;
     };
+
 }
